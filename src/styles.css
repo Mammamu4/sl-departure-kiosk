@@ -1,0 +1,99 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-size: 4vh;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #000000;
+  padding: 0;
+  margin: 0;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --metro-color: #008dd0;
+  --train-color: #ec619f;
+  --train-green: #148541;
+  --tram-color: #b65f1f;
+  --buss-color: black;
+}
+
+body {
+  overflow: hidden;
+}
+
+table {
+  width: 100%;
+  height: 100%;
+  table-layout: fixed;
+  
+  border-collapse: separate;
+}
+
+#buss, #train {
+  height: 40vh;
+}
+#gap {
+  height: 5vh;
+}
+
+
+tr {
+  background-color: #141414;
+}
+thead > tr {
+  background-color: transparent;
+}
+img {
+  height: 5vh;
+  width: auto;
+  display: flex;
+}
+td, th {
+  text-align: left;
+  vertical-align: middle;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 4.5vh;
+  padding: 0px 20px;
+}
+
+th.icon {
+  width: 5%;
+}
+th.line {
+  width: 10%;
+}
+th.time {
+  width: 10%;
+}
+th.direction {
+  width: 25%;
+}
+td.line span {
+  border-radius: 15px;
+  padding: 0px 1.5vh;
+  font-weight: bold;
+}
+.time {
+  color: orange;
+  width: 10%;
+}
+td.station {
+}
+td.direction {
+
+}
+.time-left {
+  text-align: end;
+  color: orange;
+}
+.red-text {
+  color: red;
+  font-weight: bold;
+}
+tbody > tr:nth-child(even) {
+  background-color: #0A0A0A;
+}
