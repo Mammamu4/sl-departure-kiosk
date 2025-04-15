@@ -1,33 +1,7 @@
 [
   {
-    "name": "Kista C",
-    "id": 740012883,
-    "displayedDepartures": [
-      11,
-      197,
-      179,
-      178,
-      612,
-      685,
-      687
-    ]
-  },
-  {
-    "name": "Kista Alléväg",
-    "id": 740016366,
-    "displayedDepartures": [
-      155,
-      514,
-      518,
-      537
-    ]
-  },
-  {
-    "name": "Helenelund",
-    "id": 740000701,
-    "displayedDepartures": [
-      40,
-      41
-    ]
+    "name": "",
+    "id": 0,
+    "displayedDepartures": []
   }
 ]
